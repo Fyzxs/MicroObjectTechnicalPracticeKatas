@@ -20,7 +20,7 @@ namespace NoGettersWalkThrough
             {
                 sb.Append("Fizz");
             }
-            else if (fizzBuzz.Input % 5 == 0)
+            if (fizzBuzz.Input % 5 == 0)
             {
                 sb.Append("Buzz");
             }

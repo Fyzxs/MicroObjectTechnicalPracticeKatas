@@ -9,25 +9,60 @@ namespace NoGettersWalkThrough
 
         This technical practice is to encapsulate the behavior around the data and prevent anyone else from accessing the data.
 
+        STEPS:
+            Change Input from Property to Methods
+            Isolate Divisible By Three
+            Make DivisibleByThree non-static
+            Isolate Divisible By Five
+            Make DivisibleByFive non-static
+            Isolate Input to string
+            Make InputToString non-static
+            Make GetInput private
+            Inline GetInput
+            
+        No More Input Getter
+        
+            Change Result from Property to Methods
+            Isolate fizzBuzz.Result == null
+            Make IsResultNull non-static
+            Isolate string.IsNullOrEmpty(fizzBuzz.Result)
+            Make IsResultNullOrEmpty non-static
+            Isolate fizzBuzz.Result  + "Buzz"
+            Make AppendBuzz non-static
+            Isolate fizzBuzz.Result == expected
+            Make ResultEquals non-static
+            Make GetResult private
+            Inline GetResult
+
+        No More Result Getter
+
     */
 
     public static class FizzBuzzUtils
     {
         public static void Calculate(FizzBuzz fizzBuzz)
         {
-            StringBuilder sb = new StringBuilder();
             if (fizzBuzz.Input % 3 == 0)
             {
-                sb.Append("Fizz");
-            }
-            if (fizzBuzz.Input % 5 == 0)
-            {
-                sb.Append("Buzz");
+                fizzBuzz.Result = "Fizz";
             }
 
-            fizzBuzz.Result = sb.Length == 0
-                ? fizzBuzz.Input.ToString()
-                : sb.ToString();
+            if (fizzBuzz.Input % 5 == 0)
+            {
+                if (fizzBuzz.Result == null)
+                {
+                    fizzBuzz.Result = "Buzz";
+                }
+                else
+                {
+                    fizzBuzz.Result += "Buzz";
+                }
+            }
+
+            if (string.IsNullOrEmpty(fizzBuzz.Result))
+            {
+                fizzBuzz.Result = fizzBuzz.Input.ToString();
+            }
         }
     }
 
@@ -47,12 +82,13 @@ namespace NoGettersWalkThrough
             //Arrange
             FizzBuzz fizzBuzz = new FizzBuzz();
             fizzBuzz.Input = 1;
+            string expected = "1";
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
 
             //Assert
-            fizzBuzz.Result.Should().Be("1");
+            Assert.IsTrue(fizzBuzz.Result == expected);
         }
 
         [TestMethod]
@@ -61,12 +97,13 @@ namespace NoGettersWalkThrough
             //Arrange
             FizzBuzz fizzBuzz = new FizzBuzz();
             fizzBuzz.Input = 2;
+            string expected = "2";
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
 
             //Assert
-            fizzBuzz.Result.Should().Be("2");
+            Assert.IsTrue(fizzBuzz.Result == expected);
         }
 
         [TestMethod]
@@ -75,12 +112,13 @@ namespace NoGettersWalkThrough
             //Arrange
             FizzBuzz fizzBuzz = new FizzBuzz();
             fizzBuzz.Input = 3;
+            string expected = "Fizz";
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
 
             //Assert
-            fizzBuzz.Result.Should().Be("Fizz");
+            Assert.IsTrue(fizzBuzz.Result == expected);
         }
 
         [TestMethod]
@@ -89,12 +127,13 @@ namespace NoGettersWalkThrough
             //Arrange
             FizzBuzz fizzBuzz = new FizzBuzz();
             fizzBuzz.Input = 2 * 3;
+            string expected = "Fizz";
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
 
             //Assert
-            fizzBuzz.Result.Should().Be("Fizz");
+            Assert.IsTrue(fizzBuzz.Result == expected);
         }
 
         [TestMethod]
@@ -103,12 +142,13 @@ namespace NoGettersWalkThrough
             //Arrange
             FizzBuzz fizzBuzz = new FizzBuzz();
             fizzBuzz.Input = 5;
+            string expected = "Buzz";
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
 
             //Assert
-            fizzBuzz.Result.Should().Be("Buzz");
+            Assert.IsTrue(fizzBuzz.Result == expected);
         }
 
         [TestMethod]
@@ -117,12 +157,13 @@ namespace NoGettersWalkThrough
             //Arrange
             FizzBuzz fizzBuzz = new FizzBuzz();
             fizzBuzz.Input = 2 * 5;
+            string expected = "Buzz";
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
 
             //Assert
-            fizzBuzz.Result.Should().Be("Buzz");
+            Assert.IsTrue(fizzBuzz.Result == expected);
         }
 
         [TestMethod]
@@ -131,12 +172,13 @@ namespace NoGettersWalkThrough
             //Arrange
             FizzBuzz fizzBuzz = new FizzBuzz();
             fizzBuzz.Input = 3 * 5;
+            string expected = "FizzBuzz";
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
 
             //Assert
-            fizzBuzz.Result.Should().Be("FizzBuzz");
+            Assert.IsTrue(fizzBuzz.Result == expected);
         }
 
         [TestMethod]
@@ -145,12 +187,13 @@ namespace NoGettersWalkThrough
             //Arrange
             FizzBuzz fizzBuzz = new FizzBuzz();
             fizzBuzz.Input = 2 * 3 * 5;
+            string expected = "FizzBuzz";
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
 
             //Assert
-            fizzBuzz.Result.Should().Be("FizzBuzz");
+            Assert.IsTrue(fizzBuzz.Result == expected);
         }
     }
 }

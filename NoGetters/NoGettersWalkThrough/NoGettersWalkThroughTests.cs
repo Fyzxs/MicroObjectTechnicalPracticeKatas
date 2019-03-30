@@ -12,11 +12,11 @@ namespace NoGettersWalkThrough
         STEPS:
             Change Input from Property to Methods
             Isolate Divisible By Three
-            Make DivisibleByThree non-static
+            Make DivisibleByThree non-static and into FizzBuzz
             Isolate Divisible By Five
-            Make DivisibleByFive non-static
+            Make DivisibleByFive non-static and into FizzBuzz
             Isolate Input to string
-            Make InputToString non-static
+            Make InputToString non-static and into FizzBuzz
             Make GetInput private
             Inline GetInput
             
@@ -24,13 +24,14 @@ namespace NoGettersWalkThrough
         
             Change Result from Property to Methods
             Isolate fizzBuzz.Result == null
-            Make IsResultNull non-static
+            Make IsResultNull non-static and into FizzBuzz
             Isolate string.IsNullOrEmpty(fizzBuzz.Result)
-            Make IsResultNullOrEmpty non-static
+            Make IsResultNullOrEmpty non-static and into FizzBuzz
             Isolate fizzBuzz.Result  + "Buzz"
-            Make AppendBuzz non-static
+            Make AppendBuzz non-static and into FizzBuzz
             Isolate fizzBuzz.Result == expected
-            Make ResultEquals non-static
+            Replace all instances of fizzBuzz.Result == expected with method call.
+            Make ResultEquals non-static and into FizzBuzz
             Make GetResult private
             Inline GetResult
 

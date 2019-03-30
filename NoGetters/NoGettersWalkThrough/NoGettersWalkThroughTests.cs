@@ -1,5 +1,3 @@
-using System.Text;
-using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace NoGettersWalkThrough

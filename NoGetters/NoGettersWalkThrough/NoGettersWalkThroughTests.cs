@@ -37,6 +37,7 @@ namespace NoGettersWalkThrough
         public string Result { get; set; }
     }
 
+
     [TestClass]
     public class NoGettersWalkThroughTests
     {
@@ -44,7 +45,8 @@ namespace NoGettersWalkThrough
         public void ShouldReturnString1GivenInt1()
         {
             //Arrange
-            FizzBuzz fizzBuzz = new FizzBuzz { Input = 1 };
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            fizzBuzz.Input = 1;
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
@@ -57,7 +59,8 @@ namespace NoGettersWalkThrough
         public void ShouldReturnString2GivenInt2()
         {
             //Arrange
-            FizzBuzz fizzBuzz = new FizzBuzz { Input = 2 };
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            fizzBuzz.Input = 2;
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
@@ -70,7 +73,8 @@ namespace NoGettersWalkThrough
         public void ShouldReturnFizzGivenInt3()
         {
             //Arrange
-            FizzBuzz fizzBuzz = new FizzBuzz { Input = 3 };
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            fizzBuzz.Input = 3;
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
@@ -83,7 +87,8 @@ namespace NoGettersWalkThrough
         public void ShouldReturnFizzGivenInt6()
         {
             //Arrange
-            FizzBuzz fizzBuzz = new FizzBuzz { Input = 2 * 3 };
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            fizzBuzz.Input = 2 * 3;
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
@@ -96,7 +101,8 @@ namespace NoGettersWalkThrough
         public void ShouldReturnBuzzGivenInt5()
         {
             //Arrange
-            FizzBuzz fizzBuzz = new FizzBuzz { Input = 5 };
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            fizzBuzz.Input = 5;
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
@@ -109,7 +115,8 @@ namespace NoGettersWalkThrough
         public void ShouldReturnBuzzGivenInt10()
         {
             //Arrange
-            FizzBuzz fizzBuzz = new FizzBuzz { Input = 2 * 5 };
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            fizzBuzz.Input = 2 * 5;
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
@@ -122,7 +129,8 @@ namespace NoGettersWalkThrough
         public void ShouldReturnFizzBuzzGivenInt15()
         {
             //Arrange
-            FizzBuzz fizzBuzz = new FizzBuzz { Input = 3 * 5 };
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            fizzBuzz.Input = 3 * 5;
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);
@@ -135,7 +143,8 @@ namespace NoGettersWalkThrough
         public void ShouldReturnFizzBuzzGivenInt30()
         {
             //Arrange
-            FizzBuzz fizzBuzz = new FizzBuzz { Input = 2 * 3 * 5 };
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            fizzBuzz.Input = 2 * 3 * 5;
 
             //Act
             FizzBuzzUtils.Calculate(fizzBuzz);

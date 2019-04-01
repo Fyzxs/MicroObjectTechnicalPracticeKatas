@@ -1,12 +1,12 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace NoGettersPractice
+namespace NoSettersPractice
 {
     /*
-           No Getters Refactor Kata self directed
-
-           This technical practice is to encapsulate the behavior around the data and prevent anyone else from accessing the data.
-       */
+            NoSGetters Refactor Kata Walk Through
+    
+            This technical practice is to encapsulate behavior around the data and prevent anyone else from setting the data.
+            */
 
     public static class FooBarUtils
     {
@@ -49,7 +49,7 @@ namespace NoGettersPractice
 
 
     [TestClass]
-    public class NoGettersPracticeTests
+    public class NoSettersPracticeTests
     {
         [TestMethod]
         public void ShouldReturnString1GivenInt1()

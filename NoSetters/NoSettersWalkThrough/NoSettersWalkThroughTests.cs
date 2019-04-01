@@ -4,7 +4,6 @@ namespace NoSettersWalkThrough
 {
     [TestClass]
     public class NoSettersWalkThroughTests
-
     {
         /*
                 NoSGetters Refactor Kata Walk Through

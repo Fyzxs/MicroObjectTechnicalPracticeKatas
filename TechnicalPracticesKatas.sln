@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28721.148
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NoGetters", "NoGetters", "{5E1151A7-30B9-4C25-9BD9-DFD661F6B12C}"
 EndProject
@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoGettersPractice", "NoGett
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NoSetters", "NoSetters", "{07AC5DAE-CBBC-4A5E-B27F-071695610481}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSettersWalkThrough", "NoSetters\NoSettersWalkThrough\NoSettersWalkThrough.csproj", "{AF9921EB-64B2-43B4-8BED-46FEB0568841}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoSettersWalkThrough", "NoSetters\NoSettersWalkThrough\NoSettersWalkThrough.csproj", "{AF9921EB-64B2-43B4-8BED-46FEB0568841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSettersPractice", "NoSetters\NoSettersPractice\NoSettersPractice.csproj", "{51A0AEE7-3B42-46DD-B790-195EC94651E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoSettersPractice", "NoSetters\NoSettersPractice\NoSettersPractice.csproj", "{51A0AEE7-3B42-46DD-B790-195EC94651E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IfOnlyAsGuardClause", "IfOnlyAsGuardClause", "{2FA2BFC2-BCAE-4B71-BB36-FFF7E482C200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfOnlyAsGuardClauseWalkThrough", "IfOnlyAsGuardClause\IfOnlyAsGuardClauseWalkThrough\IfOnlyAsGuardClauseWalkThrough.csproj", "{2F197F1D-0516-4221-9F24-A96AF43B1B1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,10 @@ Global
 		{51A0AEE7-3B42-46DD-B790-195EC94651E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A0AEE7-3B42-46DD-B790-195EC94651E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A0AEE7-3B42-46DD-B790-195EC94651E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F197F1D-0516-4221-9F24-A96AF43B1B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F197F1D-0516-4221-9F24-A96AF43B1B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F197F1D-0516-4221-9F24-A96AF43B1B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F197F1D-0516-4221-9F24-A96AF43B1B1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,7 @@ Global
 		{D512F2B0-C2C1-47BF-B7A1-98C77B7259A1} = {5E1151A7-30B9-4C25-9BD9-DFD661F6B12C}
 		{AF9921EB-64B2-43B4-8BED-46FEB0568841} = {07AC5DAE-CBBC-4A5E-B27F-071695610481}
 		{51A0AEE7-3B42-46DD-B790-195EC94651E7} = {07AC5DAE-CBBC-4A5E-B27F-071695610481}
+		{2F197F1D-0516-4221-9F24-A96AF43B1B1D} = {2FA2BFC2-BCAE-4B71-BB36-FFF7E482C200}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {567A83A5-999A-44AC-A97A-C3C7D192AC20}

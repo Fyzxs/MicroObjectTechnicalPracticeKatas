@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoGettersWalkThrough", "NoG
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoGettersPractice", "NoGetters\NoGettersPractice\NoGettersPractice.csproj", "{D512F2B0-C2C1-47BF-B7A1-98C77B7259A1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NoSetters", "NoSetters", "{07AC5DAE-CBBC-4A5E-B27F-071695610481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSettersWalkThrough", "NoSettersWalkThrough\NoSettersWalkThrough.csproj", "{AF9921EB-64B2-43B4-8BED-46FEB0568841}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{D512F2B0-C2C1-47BF-B7A1-98C77B7259A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D512F2B0-C2C1-47BF-B7A1-98C77B7259A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D512F2B0-C2C1-47BF-B7A1-98C77B7259A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9921EB-64B2-43B4-8BED-46FEB0568841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9921EB-64B2-43B4-8BED-46FEB0568841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9921EB-64B2-43B4-8BED-46FEB0568841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9921EB-64B2-43B4-8BED-46FEB0568841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5E197C1E-8484-491F-A6AC-5B878B903A6B} = {5E1151A7-30B9-4C25-9BD9-DFD661F6B12C}
 		{D512F2B0-C2C1-47BF-B7A1-98C77B7259A1} = {5E1151A7-30B9-4C25-9BD9-DFD661F6B12C}
+		{AF9921EB-64B2-43B4-8BED-46FEB0568841} = {07AC5DAE-CBBC-4A5E-B27F-071695610481}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {567A83A5-999A-44AC-A97A-C3C7D192AC20}

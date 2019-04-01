@@ -7,8 +7,25 @@ namespace IfOnlyAsGuardClauseWalkThrough
 
         This technical practice is to practice transformation for reshaping the method to not have internal branching.
 
+        First thing is to remove nested ifs
+        include the outer if condition with each of the inner branches
+        remove the outer if
+        THINK ABOUT IT: What do the previously nested if's mean?
+        replace fizzbuzz.Result == null with fizzBuzz.Input % 3 != 0 - we want to hit this if we aren't divisible by 3
+        Add fizzBuzz.Input % 3 == 0 to the else if block
+        remove the 'else' keyword to have every if evaluated
+        Replace += "Buzz" with = "FizzBuzz"
+        Move the "FizzBuzz" branch before the previous if block
+        Again, Move the "FizzBuzz" branch before the previous if block
+        add a 'return' statement at the end of the first if block
+        add a 'return' statement at the end of the second if block
+        Remove the %3!=0 condition
+        add a 'return' statement at the end of the third if block
+        remove the if block around fizzBuzz.Input.ToString()
 
+        All conditions are guard clauses
     */
+
     public static class FizzBuzzUtils
     {
         public static void Calculate(FizzBuzz fizzBuzz)

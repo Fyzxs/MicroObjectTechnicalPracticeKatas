@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - No Getters", "01 - No Getters", "{5E1151A7-30B9-4C25-9BD9-DFD661F6B12C}"
 EndProject
@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - If Only As Guard Claus
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfOnlyAsGuardClauseWalkThrough", "IfOnlyAsGuardClause\IfOnlyAsGuardClauseWalkThrough\IfOnlyAsGuardClauseWalkThrough.csproj", "{2F197F1D-0516-4221-9F24-A96AF43B1B1D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfOnlyAsGuardClausePractice", "IfOnlyAsGuardClausePractice\IfOnlyAsGuardClausePractice.csproj", "{093BFD23-200C-40D3-9A77-4896868B1522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfOnlyAsGuardClausePractice", "IfOnlyAsGuardClause\IfOnlyAsGuardClausePractice\IfOnlyAsGuardClausePractice.csproj", "{093BFD23-200C-40D3-9A77-4896868B1522}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Isolate Their Code", "04 - Isolate Their Code", "{3AA51325-4262-4C7D-8270-A0298F37EA15}"
 EndProject
@@ -41,9 +41,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 - No Public Statics", "1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13 - Never Reflection or Type Inspection", "13 - Never Reflection or Type Inspection", "{9C8780A6-6806-4FA7-AC64-7C3761A69A99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoGettersAndNoSetters", "NoGetters\NoGettersAndNoSetters\NoGettersAndNoSetters.csproj", "{8D930BD5-E3B5-4C75-9F5D-BB6DD1BF1903}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoGettersAndNoSetters", "NoGetters\NoGettersAndNoSetters\NoGettersAndNoSetters.csproj", "{8D930BD5-E3B5-4C75-9F5D-BB6DD1BF1903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSettersAndNoGetters", "NoSetters\NoSettersAndNoGetters\NoSettersAndNoGetters.csproj", "{D7E43B57-B49C-4140-8031-A506D040BED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoSettersAndNoGetters", "NoSetters\NoSettersAndNoGetters\NoSettersAndNoGetters.csproj", "{D7E43B57-B49C-4140-8031-A506D040BED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsolateTheirCodeWalkThrough", "IsolateTheirCode\IsolateTheirCodeWalkThrough\IsolateTheirCodeWalkThrough.csproj", "{6198D610-90B8-4808-89D5-187F57447DF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{D7E43B57-B49C-4140-8031-A506D040BED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7E43B57-B49C-4140-8031-A506D040BED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7E43B57-B49C-4140-8031-A506D040BED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6198D610-90B8-4808-89D5-187F57447DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6198D610-90B8-4808-89D5-187F57447DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6198D610-90B8-4808-89D5-187F57447DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6198D610-90B8-4808-89D5-187F57447DF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +102,7 @@ Global
 		{093BFD23-200C-40D3-9A77-4896868B1522} = {2FA2BFC2-BCAE-4B71-BB36-FFF7E482C200}
 		{8D930BD5-E3B5-4C75-9F5D-BB6DD1BF1903} = {5E1151A7-30B9-4C25-9BD9-DFD661F6B12C}
 		{D7E43B57-B49C-4140-8031-A506D040BED3} = {07AC5DAE-CBBC-4A5E-B27F-071695610481}
+		{6198D610-90B8-4808-89D5-187F57447DF1} = {3AA51325-4262-4C7D-8270-A0298F37EA15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {567A83A5-999A-44AC-A97A-C3C7D192AC20}

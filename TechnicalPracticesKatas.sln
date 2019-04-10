@@ -3,49 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - No Getters", "01 - No Getters", "{5E1151A7-30B9-4C25-9BD9-DFD661F6B12C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01a - No Getters", "01a - No Getters", "{5E1151A7-30B9-4C25-9BD9-DFD661F6B12C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoGettersWalkThrough", "NoGetters\NoGettersWalkThrough\NoGettersWalkThrough.csproj", "{5E197C1E-8484-491F-A6AC-5B878B903A6B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoGettersPractice", "NoGetters\NoGettersPractice\NoGettersPractice.csproj", "{D512F2B0-C2C1-47BF-B7A1-98C77B7259A1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - No Setters", "02 - No Setters", "{07AC5DAE-CBBC-4A5E-B27F-071695610481}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01b - No Setters", "01b - No Setters", "{07AC5DAE-CBBC-4A5E-B27F-071695610481}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoSettersWalkThrough", "NoSetters\NoSettersWalkThrough\NoSettersWalkThrough.csproj", "{AF9921EB-64B2-43B4-8BED-46FEB0568841}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoSettersPractice", "NoSetters\NoSettersPractice\NoSettersPractice.csproj", "{51A0AEE7-3B42-46DD-B790-195EC94651E7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - If Only As Guard Clause", "03 - If Only As Guard Clause", "{2FA2BFC2-BCAE-4B71-BB36-FFF7E482C200}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01c - No Getter No Setter Refactor", "01c - No Getter No Setter Refactor", "{AAF09778-7501-4F3B-9F47-AD3998642314}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - If Only As Guard Clause", "02 - If Only As Guard Clause", "{2FA2BFC2-BCAE-4B71-BB36-FFF7E482C200}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfOnlyAsGuardClauseWalkThrough", "IfOnlyAsGuardClause\IfOnlyAsGuardClauseWalkThrough\IfOnlyAsGuardClauseWalkThrough.csproj", "{2F197F1D-0516-4221-9F24-A96AF43B1B1D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfOnlyAsGuardClausePractice", "IfOnlyAsGuardClause\IfOnlyAsGuardClausePractice\IfOnlyAsGuardClausePractice.csproj", "{093BFD23-200C-40D3-9A77-4896868B1522}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Isolate Their Code", "04 - Isolate Their Code", "{3AA51325-4262-4C7D-8270-A0298F37EA15}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Isolate Their Code", "03 - Isolate Their Code", "{3AA51325-4262-4C7D-8270-A0298F37EA15}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Never null", "05 - Never null", "{1A4C6D44-ABB1-4BCA-93CB-C2CFE08C6D16}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Never null", "04 - Never null", "{1A4C6D44-ABB1-4BCA-93CB-C2CFE08C6D16}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - No new Inline", "06 - No new Inline", "{FD2C1738-03E8-4274-B16C-CC600EAC326F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - No new Inline", "05 - No new Inline", "{FD2C1738-03E8-4274-B16C-CC600EAC326F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Composition, Not Inheritance", "07 - Composition, Not Inheritance", "{999F6916-320F-4B60-873A-DF88CA444803}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Composition, Not Inheritance", "06 - Composition, Not Inheritance", "{999F6916-320F-4B60-873A-DF88CA444803}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 - Interface Everything", "08 - Interface Everything", "{75275F46-31CC-40C2-B4D8-C4284773B879}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Interface Everything", "07 - Interface Everything", "{75275F46-31CC-40C2-B4D8-C4284773B879}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 - Be Immutable", "09 - Be Immutable", "{46C4EBF7-4D1E-4706-BDC1-DFEFE73D27CA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 - Be Immutable", "08 - Be Immutable", "{46C4EBF7-4D1E-4706-BDC1-DFEFE73D27CA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - No Primitives", "10 - No Primitives", "{0837010A-3BA9-467B-AE7A-8533B6730A9D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 - No Primitives", "09 - No Primitives", "{0837010A-3BA9-467B-AE7A-8533B6730A9D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 - Extract Cohesion", "11 - Extract Cohesion", "{9F9E861B-4314-4487-AFE3-F4954A18B965}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Extract Cohesion", "10 - Extract Cohesion", "{9F9E861B-4314-4487-AFE3-F4954A18B965}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 - No Public Statics", "12 - No Public Statics", "{A2C600C7-646F-4955-9DE3-5E90131B883A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 - No Public Statics", "11 - No Public Statics", "{A2C600C7-646F-4955-9DE3-5E90131B883A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13 - Never Reflection or Type Inspection", "13 - Never Reflection or Type Inspection", "{9C8780A6-6806-4FA7-AC64-7C3761A69A99}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 - Never Reflection or Type Inspection", "12 - Never Reflection or Type Inspection", "{9C8780A6-6806-4FA7-AC64-7C3761A69A99}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoGettersAndNoSetters", "NoGetters\NoGettersAndNoSetters\NoGettersAndNoSetters.csproj", "{8D930BD5-E3B5-4C75-9F5D-BB6DD1BF1903}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoSettersAndNoGetters", "NoSetters\NoSettersAndNoGetters\NoSettersAndNoGetters.csproj", "{D7E43B57-B49C-4140-8031-A506D040BED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsolateTheirCodeWalkThrough", "IsolateTheirCode\IsolateTheirCodeWalkThrough\IsolateTheirCodeWalkThrough.csproj", "{6198D610-90B8-4808-89D5-187F57447DF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsolateTheirCodeWalkThrough", "IsolateTheirCode\IsolateTheirCodeWalkThrough\IsolateTheirCodeWalkThrough.csproj", "{6198D610-90B8-4808-89D5-187F57447DF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsolateTheirCodePractice", "IsolateTheirCode\IsolateTheirCodePractice\IsolateTheirCodePractice.csproj", "{B00F323A-4DEC-4DDD-A628-A559E8B798EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoGetterNoSetterRefactorWalkThrough", "NoGetterNoSetter\NoGetterNoSetterRefactorWalkThrough\NoGetterNoSetterRefactorWalkThrough.csproj", "{39024741-7368-41B4-9405-137706D94C36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +95,14 @@ Global
 		{6198D610-90B8-4808-89D5-187F57447DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6198D610-90B8-4808-89D5-187F57447DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6198D610-90B8-4808-89D5-187F57447DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00F323A-4DEC-4DDD-A628-A559E8B798EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00F323A-4DEC-4DDD-A628-A559E8B798EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00F323A-4DEC-4DDD-A628-A559E8B798EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00F323A-4DEC-4DDD-A628-A559E8B798EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39024741-7368-41B4-9405-137706D94C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39024741-7368-41B4-9405-137706D94C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39024741-7368-41B4-9405-137706D94C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39024741-7368-41B4-9405-137706D94C36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +117,8 @@ Global
 		{8D930BD5-E3B5-4C75-9F5D-BB6DD1BF1903} = {5E1151A7-30B9-4C25-9BD9-DFD661F6B12C}
 		{D7E43B57-B49C-4140-8031-A506D040BED3} = {07AC5DAE-CBBC-4A5E-B27F-071695610481}
 		{6198D610-90B8-4808-89D5-187F57447DF1} = {3AA51325-4262-4C7D-8270-A0298F37EA15}
+		{B00F323A-4DEC-4DDD-A628-A559E8B798EB} = {3AA51325-4262-4C7D-8270-A0298F37EA15}
+		{39024741-7368-41B4-9405-137706D94C36} = {AAF09778-7501-4F3B-9F47-AD3998642314}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {567A83A5-999A-44AC-A97A-C3C7D192AC20}
